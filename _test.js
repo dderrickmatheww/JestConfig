@@ -13,7 +13,6 @@ const _testFunctions = {
         isNull: function(var1) {
             test(var1 + ' is null.', () => {
                 expect(var1).toBeNull();
-                
             });
         },
         isDefined: function(var1) {
